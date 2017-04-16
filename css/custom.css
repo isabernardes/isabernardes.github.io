@@ -51,7 +51,6 @@ h1 {
 }
 
 .intro-section p {
-
      line-height: 35px;
 
 }
@@ -75,8 +74,11 @@ h1 {
 }
 
 .team-section {
-    height: 70%;
+    height: auto;
     padding-top: 100px;
+    padding-bottom:100px;
+    padding-left: 30px;
+    padding-right:30px;
     text-align: center;
     background: #F6534A;
 }
@@ -88,25 +90,33 @@ h1 {
 }
 
 .contact-section {
-    height: 65%;
+    height: auto;
     padding-top: 100px;
+    padding-bottom:100px;
+    padding-left: 30px;
+    padding-right:30px;
     text-align: center;
     background: #eee;
+
+}
+
+.contact-section p {
+       line-height: 50px;
+
 }
 
 .footer-section {
-    height: 30%;
+    height: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     background: #2B2B2B;
     color: #000000;
+    padding-left: 30px;
+    padding-right:30px;
 
 }
 
-.footer-section h1 {
-    color: #ffffff;
-
-}
 
 /*Footer*/
 
@@ -191,3 +201,38 @@ a.socialIcon:hover, .socialHoverClass {
 .social-circle a {
  background-color: #D3D3D3;   
 }
+
+/*More footer stuff*/
+.footer-section {
+    height: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+}
+.footer-bottom p {
+    margin: 0;
+    color: #7F8C8D;
+    padding-top: 100px;
+}
+
+.footer-section h1, h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+.footer-section ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+
