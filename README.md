@@ -6,4 +6,4 @@ Website: www.aegisheritage.org
 
 Facebook: https://www.facebook.com/aegisheritage/
 
-Twitter: @aegisheritage
+Twitter: https://twitter.com/aegisheritage
